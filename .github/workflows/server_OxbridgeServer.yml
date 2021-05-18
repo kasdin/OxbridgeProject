@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'OxbridgeServer'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1853fe291a2241518aa206fbdd7b7060 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b43f1276da2f4f9f8c09a648fb1a9b72 }}
         package: .
