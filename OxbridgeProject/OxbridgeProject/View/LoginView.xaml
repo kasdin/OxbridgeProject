@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OxbridgeProject.LoginView"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="logoTrans.png"  Grid.RowSpan="4" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Welcome to Oxbridge Mobile App!" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontSize="10"/>
+        <Label Text="Login to get Features of the app!" Grid.Row="5" HorizontalOptions="CenterAndExpand" FontSize="10"/>
+
+        <Label Text="Login:" Grid.Row="6"  HorizontalTextAlignment="Center" VerticalOptions="Center" />
+        <Entry x:Name="loginEntry" Grid.Row="7"  HorizontalTextAlignment="Center" Margin="100,0,100,0" Text="{Binding Login}"/>
+        <Label Text="Password:" Grid.Row="8"  HorizontalTextAlignment="Center" VerticalOptions="Center" />
+        <Entry x:Name="PasswordEntry" Grid.Row="9"  HorizontalTextAlignment="Center" Margin="100,0,100,0" IsPassword="True" Text="{Binding Password}"/>
+        <Label Text="Forgot Password?" Grid.Row="10" VerticalOptions="Center" HorizontalOptions="Center" FontSize="10" TextDecorations="Underline"/>
+        <Button x:Name="loginButton" Command="{Binding LogIn}" Grid.Row="11" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="LOGIN"/>
+
+    </Grid>
+
+</ContentPage>

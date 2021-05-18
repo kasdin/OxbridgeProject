@@ -1,0 +1,15 @@
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\bin\Debug\netstandard2.0\OxbridgeProject.deps.json
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\bin\Debug\netstandard2.0\OxbridgeProject.dll
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\bin\Debug\netstandard2.0\ref\OxbridgeProject.dll
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\bin\Debug\netstandard2.0\OxbridgeProject.pdb
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.AssemblyInfoInputs.cache
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.AssemblyInfo.cs
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.dll
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\ref\OxbridgeProject.dll
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.pdb
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\OxbridgeProject.csprojAssemblyReference.cache
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\LoginView.xaml.g.cs
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\OptionView.xaml.g.cs
