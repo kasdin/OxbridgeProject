@@ -1,6 +1,8 @@
-﻿using System;
+﻿using OxbridgeProject.ViewModel;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 namespace OxbridgeProject
 {
@@ -9,10 +11,18 @@ namespace OxbridgeProject
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            ServiceContainer.Register(() => new loginViewVM());
+            ServiceContainer.Register(() => new OptionViewVM());
+            setMainPage();
         }
+        public void setMainPage() {
 
+            var mainView = new NavigationPage(new LoginView());
+            NavigationPage.SetHasBackButton(mainView, false);
+            NavigationPage.SetHasNavigationBar(mainView, false);
+
+            MainPage = mainView;
+        }
         protected override void OnStart()
         {
         }
