@@ -13,6 +13,8 @@ namespace OxbridgeProject
             InitializeComponent();
             ServiceContainer.Register(() => new loginViewVM());
             ServiceContainer.Register(() => new OptionViewVM());
+            ServiceContainer.Register(() => new MessageViewVM());
+            ServiceContainer.Register(() => new TeamInfoViewVM());
             setMainPage();
         }
         public void setMainPage() {
