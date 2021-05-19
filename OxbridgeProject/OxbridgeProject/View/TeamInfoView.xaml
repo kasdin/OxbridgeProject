@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OxbridgeProject.View.TeamInfoView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+            <RowDefinition  Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="logoTrans.png"  Grid.RowSpan="4" Grid.ColumnSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+
+        <Label Text="Team Name:" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center"/>
+        <Label Text="Team Name:" Grid.Row="5" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+        <Label Text="Team Picture:" Grid.Row="6"  Grid.RowSpan="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Image Source="boatIcon.png"  Grid.Row="6" Grid.RowSpan="2"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200" HeightRequest="100" Margin="0,0,50,0"/>
+        <Button Text="Add Team Picture: " Grid.Row="9" Grid.RowSpan="2" Grid.ColumnSpan="2"  HorizontalOptions="Center"  WidthRequest="180"/>
+    
+
+
+    </Grid>
+</ContentPage>

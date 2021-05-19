@@ -491,3 +491,4 @@ C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject.Andr
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject.Android\obj\Debug\90\res\drawable\logotrans.png
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject.Android\obj\Debug\90\res\drawable\boaticon.png
