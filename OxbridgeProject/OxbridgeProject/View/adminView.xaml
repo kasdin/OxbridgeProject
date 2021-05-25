@@ -22,7 +22,7 @@
 
         <Image Source="logoTrans.png"  Grid.RowSpan="4" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
         <Label Text="Welcome to Administrator Panel!" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontSize="14"/>
-        <Button x:Name="sendMessageButton" Command="{Binding goMessageView}"  Grid.Row="6" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="Send Messages" HeightRequest="100"/>
+        <Button x:Name="goMessageView" Command="{Binding goMessageView}"  Grid.Row="6" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="Send Messages!" HeightRequest="100"/>
        
         
 

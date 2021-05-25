@@ -50,15 +50,17 @@ namespace OxbridgeProject.ViewModel
 
 
             }
-            else
+            if (login.Equals("user"))
             {
-                if (isBusy)
                 {
-                    return;
+                    if (isBusy)
+                    {
+                        return;
+                    }
+                    isBusy = true;
+                    await App.Current.MainPage.Navigation.PushAsync(new OptionView());
+                    isBusy = false;
                 }
-                isBusy = true;
-                await App.Current.MainPage.Navigation.PushAsync(new OptionView());
-                isBusy = false;
             }
             });
 

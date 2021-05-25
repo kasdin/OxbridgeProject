@@ -18,11 +18,17 @@
             <RowDefinition  Height="*"/>
             <RowDefinition  Height="*"/>
         </Grid.RowDefinitions>
+
         
-        
-        
-        
-        
-        
+        <Image Source="logoTrans.png"  Grid.RowSpan="4" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Brodcast message to all boats!" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontSize="14"/>
+        <Label Text="Enter message" Grid.Row="5" HorizontalOptions="CenterAndExpand" FontSize="14"/>
+        <Frame Grid.Row="6" Grid.RowSpan="3" BorderColor="Black" Padding="5,5,5,5">
+            <Editor MaxLength="300"  />
+        </Frame>
+
+        <Button x:Name="sendMessageButton" Command="{Binding goMessageView}"  Grid.Row="10" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="Send" HeightRequest="100"/>
+
+
     </Grid>
 </ContentPage>

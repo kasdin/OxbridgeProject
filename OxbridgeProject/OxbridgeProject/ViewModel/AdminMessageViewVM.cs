@@ -9,20 +9,6 @@ namespace OxbridgeProject.ViewModel
 {
     class AdminMessageViewVM : BaseViewModel
     {
-        public ICommand goMessageView => new Command(async () =>
-        {
-
-
-
-            if (isBusy)
-            {
-                return;
-            }
-            isBusy = true;
-            await App.Current.MainPage.Navigation.PushAsync(new AdminMessageView());
-            isBusy = false;
-
-
-        });
+      
     }
 }
