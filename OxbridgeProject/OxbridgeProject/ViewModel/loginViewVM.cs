@@ -30,9 +30,28 @@ namespace OxbridgeProject.ViewModel
          */
 
 
+
+
+
+        /**
+         * COMMANDS 
+         */
         public ICommand LogIn => new Command(async () => {
-               
-            
+
+            if (login.Equals("admin"))
+            {
+                if (isBusy)
+                {
+                    return;
+                }
+                isBusy = true;
+                await App.Current.MainPage.Navigation.PushAsync(new adminView());
+                isBusy = false;
+
+
+            }
+            else
+            {
                 if (isBusy)
                 {
                     return;
@@ -40,7 +59,7 @@ namespace OxbridgeProject.ViewModel
                 isBusy = true;
                 await App.Current.MainPage.Navigation.PushAsync(new OptionView());
                 isBusy = false;
-            
+            }
             });
 
         public loginViewVM()

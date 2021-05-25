@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OxbridgeProject.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,14 @@ namespace OxbridgeProject.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MessageView : ContentPage
     {
+        private MessageViewVM messageVM = null;
         public MessageView()
         {
+
+            messageVM = ServiceContainer.Resolve<MessageViewVM>();
+            this.BindingContext = messageVM;
+
+
             InitializeComponent();
         }
     }
