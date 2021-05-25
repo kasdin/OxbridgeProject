@@ -12,7 +12,7 @@ namespace OxbridgeProject.ViewModel
 
 
 
-        public ICommand LogIn => new Command(async () =>
+        public ICommand goMessageView => new Command(async () =>
         {
 
 

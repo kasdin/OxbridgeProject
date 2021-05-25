@@ -16,3 +16,4 @@ C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\MessageView.xaml.g.cs
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\TeamInfoView.xaml.g.cs
 C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\adminView.xaml.g.cs
+C:\Users\Jakub\source\repos\OxbridgeProject\OxbridgeProject\OxbridgeProject\obj\Debug\netstandard2.0\View\AdminMessageView.xaml.g.cs
