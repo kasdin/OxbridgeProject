@@ -1,6 +1,9 @@
-﻿using System;
+﻿using OxbridgeProject.View;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace OxbridgeProject.ViewModel
 {
@@ -9,19 +12,20 @@ namespace OxbridgeProject.ViewModel
 
 
 
-        public ICommand LogIn => new Command(async () => {
+        public ICommand LogIn => new Command(async () =>
+        {
 
-            if (login.Equals("admin"))
+
+            if (isBusy)
             {
-                if (isBusy)
-                {
-                    return;
-                }
-                isBusy = true;
-                await App.Current.MainPage.Navigation.PushAsync(new adminView());
-                isBusy = false;
-
-
+                return;
             }
-        }
+            isBusy = true;
+            await App.Current.MainPage.Navigation.PushAsync(new AdminMessageView());
+            isBusy = false;
+
+
+
+        });
+    }
 }
