@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OxbridgeProject.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,11 @@ namespace OxbridgeProject.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AdminMessageView : ContentPage
     {
+        private AdminMessageViewVM adminVM = null;
         public AdminMessageView()
         {
+            adminVM = ServiceContainer.Resolve<AdminMessageViewVM>();
+            this.BindingContext = adminVM;
             InitializeComponent();
         }
     }

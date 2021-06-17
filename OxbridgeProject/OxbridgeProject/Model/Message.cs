@@ -6,7 +6,9 @@ namespace OxbridgeProject.Model
 {
     class Message
     {
-        public string Author { get; set; }
-        public string msgBody { get; set; }
+        public int messageID { get; set; }
+        public string emailUsername { get; set; }
+        public string MsgTitle { get; set; }
+        public string MsgBody { get; set; }
     }
 }

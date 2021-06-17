@@ -20,14 +20,15 @@
         </Grid.RowDefinitions>
 
         
-        <Image Source="logoTrans.png"  Grid.RowSpan="4" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
-        <Label Text="Brodcast message to all boats!" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontSize="14"/>
-        <Label Text="Enter message" Grid.Row="5" HorizontalOptions="CenterAndExpand" FontSize="14"/>
-        <Frame Grid.Row="6" Grid.RowSpan="3" BorderColor="Black" Padding="5,5,5,5">
-            <Editor MaxLength="300"  />
+        <Image Source="logoTrans.png"  Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Brodcast message to all boats!" Grid.Row="3" HorizontalOptions="Center" FontSize="14"/>
+        <Label Text="Enter message" Grid.Row="4" HorizontalOptions="Center" FontSize="14" />
+        <Entry Placeholder="Enter Title Of message " Text="{Binding Title}" Grid.Row="5" Grid.RowSpan="2"  VerticalOptions="CenterAndExpand"/>
+        <Frame Grid.Row="7" Grid.RowSpan="4" BorderColor="Black" Padding="5,5,5,5">
+            <Editor MaxLength="300" Text="{Binding msgBody}" />
         </Frame>
 
-        <Button x:Name="sendMessageButton" Command="{Binding goMessageView}"  Grid.Row="10" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="Send" HeightRequest="100"/>
+        <Button x:Name="sendMessageButton" Command="{Binding sendMessage}"  Grid.Row="11" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="180" Text="Send" HeightRequest="100"/>
 
 
     </Grid>
