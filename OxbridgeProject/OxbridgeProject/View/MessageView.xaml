@@ -26,7 +26,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                    
-                    <TextCell Text="{Binding msgBody}"/>
+                    <TextCell Text="{Binding MsgBody}"/>
 
                 </DataTemplate>
             </ListView.ItemTemplate>
